@@ -32,7 +32,7 @@ export default function ListTodo() {
         onKeyPress={() => setMensaje("")}
       />
       <button className="btn-agregar" onClick={options}>
-        Agregar
+        Add
       </button>
       {mensaje && (
         <p style={{ color: "red", marginBottom: "10px" }}>{mensaje}</p>

@@ -44,7 +44,7 @@ export default function CardsList({ listaTareas, setListaTareas }) {
             <div className="card-date"></div>
             <div className="card-actions">
               {indiceEdicion === index ? (
-                <button onClick={() => saveEdit(index)}>Guardar</button>
+                <button onClick={() => saveEdit(index)}>Save</button>
               ) : (
                 <>
                   <button onClick={() => fncEdit(index)}>Edit</button>
